@@ -3,10 +3,10 @@ services:
     container_name: windows
     image: ghcr.io/dockur/windows
     environment:
-      RAM_SIZE: "12G"
-      CPU_CORES: "4"
-      DISK_SIZE: "256G"
-      DISK_MINIMUM: "25G"
+      RAM_SIZE: "half"
+      CPU_CORES: "max"
+      DISK_SIZE: "max"
+      DISK_MINIMUM: "1G"
       AUDIO: "Y"
       VM: "N"
       USERNAME: "ORisheo"
