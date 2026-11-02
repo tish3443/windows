@@ -3,16 +3,17 @@ services:
     container_name: windows
     image: ghcr.io/dockur/windows
     environment:
-      RAM_SIZE: "12G"
+      RAM_SIZE: "half"
       CPU_CORES: "max"
       DISK_SIZE: "max"
       DISK_MINIMUM: "1G"
       AUDIO: "Y"
-      GPU: "N"
+      GPU: "Y"
       VM: "N"
       USERNAME: "What"
       PASSWORD: "What"
     devices:
+      - /dev/dri
       - /dev/kvm
       - /dev/net/tun
     cap_add:
