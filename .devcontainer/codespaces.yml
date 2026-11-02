@@ -8,12 +8,10 @@ services:
       DISK_SIZE: "max"
       DISK_MINIMUM: "1G"
       AUDIO: "Y"
-      GPU: "Y"
       VM: "N"
       USERNAME: "What"
       PASSWORD: "What"
     devices:
-      - /dev/dri
       - /dev/kvm
       - /dev/net/tun
     cap_add:
