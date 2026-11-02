@@ -8,10 +8,12 @@ services:
       DISK_SIZE: "max"
       DISK_MINIMUM: "1G"
       AUDIO: "Y"
+      GPU: "Y"
       VM: "N"
       USERNAME: "ORisheo"
       PASSWORD: "NyanCat"
     devices:
+      - /dev/dri
       - /dev/kvm
       - /dev/net/tun
     cap_add:
