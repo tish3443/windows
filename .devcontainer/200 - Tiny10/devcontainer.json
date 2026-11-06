@@ -1,8 +1,8 @@
 {
-  "name": "Tiny10",
+  "name": "Tiny11pro",
   "service": "windows",
   "containerEnv": {
-    "VERSION": "tiny10"
+    "VERSION": "https://archive.org/download/tiny11-26h2-by16yoshi/tiny11%2026h2%20beta%201.iso"
   },
   "forwardPorts": [8006],
   "portsAttributes": {
